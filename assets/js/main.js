@@ -122,14 +122,18 @@ risultato.innerHTML = Math.pow(askNumber, 3);*/
 
 
 //Stampa le potenze di 2 fino a 1000.
+const risultato = document.getElementById('text_6');
 
-/*for (let index = Math.pow(2, 0); index <= Math.pow(2, 1000); index++) {
-    console.log(index);
-    const element = risultat[index];
+for (let index = 0; index <= 1000; index++) {
+    
+
+   const element = Math.pow(2, index);
+   console.log(element);
+   risultato.innerHTML += element;
 
 
     
-}*/
+}
 
 
 
@@ -159,7 +163,7 @@ risultato.innerHTML = sum;*/
 
 //Calcola la somma e la media dei primi 10 numeri.
 
-let somma=0;
+/*let somma=0;
 const risultatoSomma = document.getElementById('text_8');
 const risultatoMedia = document.getElementById('text_9');
 
@@ -183,6 +187,6 @@ for (let i=1; i<=10; i++){
 
 somma1/=10;
 console.log("media = "+somma1);
-risultatoMedia.innerHTML = "La media dei primi 10 numeri è = "+somma1;
+risultatoMedia.innerHTML = "La media dei primi 10 numeri è = "+somma1;*/
 
 
