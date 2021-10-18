@@ -53,14 +53,6 @@ if (Word_1.length > Word_2.length){
 //Il software deve chiedere per 10 volte all’utente di inserire un numero. Il programma stampa la somma di tutti i numeri inseriti.
 
 
-/*const risult = document.getElementById('text_3');
-
-for (let index = 0; index < 10; index++) {
-    const element = parseInt(prompt('Scegli un numero'));
-
-    risult.innerHTML += element;
-    console.log(element);
-}*/
 
 
 /*const risult = document.getElementById('text_3');
@@ -107,6 +99,36 @@ risult.innerHTML = (primo + secondo + terzo + quarto + quinto + sesto + settimo 
 //Crea un array vuoto. Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo nell’array.
 
 
+/*const number = [];
+const risultato = document.getElementById('text_10');
+
+for (let index = 0; index <= 5; index++) {
+    const askNumber = parseInt(prompt('Scegli un numero'));
+
+    if(askNumber % 2 == 0) {
+
+    } else {
+        number.push(askNumber)
+    }
+    
+}
+console.log(number);
+risultato.innerHTML = number;*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //Stampa il cubo dei primi N numeri, dove N è un numero indicato dall’utente.
 
@@ -122,7 +144,7 @@ risultato.innerHTML = Math.pow(askNumber, 3);*/
 
 
 //Stampa le potenze di 2 fino a 1000.
-const risultato = document.getElementById('text_6');
+/*const risultato = document.getElementById('text_6');
 
 for (let index = 0; index <= 1000; index++) {
     
@@ -130,10 +152,8 @@ for (let index = 0; index <= 1000; index++) {
    const element = Math.pow(2, index);
    console.log(element);
    risultato.innerHTML += element;
-
-
-    
-}
+   
+}*/
 
 
 
